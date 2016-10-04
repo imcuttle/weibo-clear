@@ -4,7 +4,6 @@
 var spider  = require('./spider');
 var url     = require('url');
 var qs      = require('querystring');
-var cheerio = require('cheerio');
 
 function makeIncArray(low, high) {
     let arr = [];
@@ -180,5 +179,5 @@ function unfollowWeibo(low, high) {
 
 
 // delWeibo(1, 20)
-unlikeWeibo(1, 1)
+unlikeWeibo(1, 2)
 // unfollowWeibo(1, 11)
